@@ -1,0 +1,80 @@
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+}
+
+#navbar ul li{
+    margin-top: 0;
+}
+
+#home{
+    padding: 0px 50px;
+    height: 345px;
+}
+
+#home::before{
+    height: 450px;
+}
+
+
+.h-primary{
+    font-size: 2.8rem;
+}
+
+.btn{
+    font-size: 0.8rem;
+    padding: 3px 7px;
+    margin-top: 10px;
+}
+
+
+#services{
+    display: flex;
+    flex-direction: column;
+}
+
+#services .box{
+padding: 25px;
+margin: 6px 40px;
+}
+
+
+
+/* partners   */
+
+#partners-section{
+   flex-wrap: wrap;
+}
+
+#partners-section::before{
+    height: 606px;
+ }
+ 
+
+#partners-section img{
+    height: 100px;
+    width: 60px;
+ }
+
+ .partner-item{
+    padding: 10px 15px;
+}
+
+
+/* contacts section  */
+
+#contact-box form{
+    width: 60%;
+}
+
+#contact{
+    position: relative;
+}
+
+#contact-box{
+    padding: 6px;
+}
+
